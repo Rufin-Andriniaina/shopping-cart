@@ -26,7 +26,7 @@ const App = () => {
         Alert! le produit est pour vous maintenant!
       </h1>
       <ShoppingCart />
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-start gap-10 xl:px-6 px-10">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-start gap-10 xl:px-6">
         {allItems.map((item) => {
           return (
             <div key={item.id}>
